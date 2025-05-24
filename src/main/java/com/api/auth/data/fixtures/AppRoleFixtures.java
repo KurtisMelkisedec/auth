@@ -17,12 +17,12 @@ public class AppRoleFixtures implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        AppRole role1=new AppRole();
-        role1.setRoleName("ADMIN");
-        AppRole role2=new AppRole();
-        role2.setRoleName("PASSENGER");
-        roleRepository.save(role1);
-        roleRepository.save(role2);
+//        AppRole role1=new AppRole();
+//        role1.setRoleName("ADMIN");
+//        AppRole role2=new AppRole();
+//        role2.setRoleName("PASSENGER");
+//        roleRepository.save(role1);
+//        roleRepository.save(role2);
 
 
 

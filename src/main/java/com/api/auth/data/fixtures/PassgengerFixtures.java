@@ -19,14 +19,14 @@ public class PassgengerFixtures implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
 
-        for (int i = 1; i <= 10; i++) {
-            Passenger passenger=new Passenger();
-            passenger.setFirstName("Passenger_"+i);
-            passenger.setLastName("Passenger_"+i);
-            passenger.setBirthDate(LocalDate.now());
-            passenger.setRegistered(false);
-            passengerRepository.save(passenger);
-        }
+//        for (int i = 1; i <= 10; i++) {
+//            Passenger passenger=new Passenger();
+//            passenger.setFirstName("Passenger_"+i);
+//            passenger.setLastName("Passenger_"+i);
+//            passenger.setBirthDate(LocalDate.now());
+//            passenger.setRegistered(false);
+//            passengerRepository.save(passenger);
+//        }
 
 
     }

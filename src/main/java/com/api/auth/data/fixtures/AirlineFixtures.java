@@ -14,11 +14,11 @@ public class AirlineFixtures implements CommandLineRunner {
     private final IAirlineRepository airlineRepository;
     @Override
     public void run(String... args) throws Exception {
-        for (int i = 1; i <=20 ; i++) {
-            Airline airline=new Airline();
-            airline.setName("Airline_"+1);
-            airlineRepository.save(airline);
-
-        }
+//        for (int i = 1; i <=20 ; i++) {
+//            Airline airline=new Airline();
+//            airline.setName("Airline_"+1);
+//            airlineRepository.save(airline);
+//
+//        }
     }
 }

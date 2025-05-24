@@ -27,20 +27,20 @@ public class AppUserFixtures implements CommandLineRunner {
 
 
 
-            Passenger passenger=passengerRepository.findById(1L).get();
-
-            if (passenger!=null){
-                AppUser user=new AppUser();
-                user.setLogin("kurtismelkisoft@gmail.com");
-                user.setPassword(passwordEncoder.encode("passer123"));
-                user.setPassenger(passenger);
-                passenger.setAppUser(user);
-                user.getRoles().add(
-                        roleRepository.findByRoleName("PASSENGER")
-                );
-                userRepository.save(user);
-                passengerRepository.save(passenger);
-            }
+//            Passenger passenger=passengerRepository.findById(1L).get();
+//
+//            if (passenger!=null){
+//                AppUser user=new AppUser();
+//                user.setLogin("kurtismelkisoft@gmail.com");
+//                user.setPassword(passwordEncoder.encode("passer123"));
+//                user.setPassenger(passenger);
+//                passenger.setAppUser(user);
+//                user.getRoles().add(
+//                        roleRepository.findByRoleName("PASSENGER")
+//                );
+//                userRepository.save(user);
+//                passengerRepository.save(passenger);
+//            }
 
 
     }
