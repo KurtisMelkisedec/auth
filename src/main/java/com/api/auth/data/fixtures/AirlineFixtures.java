@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 //@Order(4)
 @RequiredArgsConstructor
-@Component
+//@Component
 public class AirlineFixtures implements CommandLineRunner {
     private final IAirlineRepository airlineRepository;
     @Override

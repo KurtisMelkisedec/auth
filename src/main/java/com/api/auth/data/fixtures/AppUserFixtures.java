@@ -12,7 +12,7 @@ import org.springframework.core.annotation.Order;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 //@Order(3)
 @RequiredArgsConstructor
 public class AppUserFixtures implements CommandLineRunner {

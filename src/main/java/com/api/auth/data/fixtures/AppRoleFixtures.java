@@ -8,7 +8,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 //@Order(1)
 @RequiredArgsConstructor
 public class AppRoleFixtures implements CommandLineRunner {

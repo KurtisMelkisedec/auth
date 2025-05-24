@@ -19,7 +19,7 @@ import java.util.Random;
 
 @Order(5)
 @RequiredArgsConstructor
-@Component
+//@Component
 public class FlightFixtures implements CommandLineRunner {
     private final IFlightRepository flightRepository;
     private final IAirlineRepository airlineRepository;

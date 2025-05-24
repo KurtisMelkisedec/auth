@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import java.time.LocalDate;
 import java.util.Date;
 
-@Component
+//@Component
 //@Order(2)
 @RequiredArgsConstructor
 public class PassgengerFixtures implements CommandLineRunner {
